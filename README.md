@@ -5,6 +5,6 @@ A script that is designed to be run by cron that fetches all the events based on
 
 A cron such as this can be used to run the script at 6PM daily
 
-```0 0 18 1/1 * ? * /usr/bin/php /root/index.php > /dev/null```
+```0 0 18 1/1 * ? * /usr/bin/php /var/www/index.php > /dev/null```
 
 Email handler made by http://swiftmailer.org/
