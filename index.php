@@ -1,6 +1,6 @@
 <?php
 /*
- *  Script for pulling all EventBrite CoderDojo events from the API and saving them as a JSON file, then sending it as an email
+ *  Script for pulling all EventBrite events based on a keyword from the API and saving them as a JSON file, then sending it as an email
  *  @author Shane Curran
  */
 
