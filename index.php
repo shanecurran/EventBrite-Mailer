@@ -7,6 +7,11 @@
 // Set your API key here
 $api_key = "YOUR-API-KEY";
 
+// Set your SMTP details here
+$smtp_host = "host";
+$smtp_user = "username";
+$smtp_pass = "password;"
+
 // Set up an array with all the email recipients here
 $emails = array(
         "john@doe.com",
@@ -47,4 +52,4 @@ $keyword_string = substr($keyword_string, 0, -8);
  file_put_contents($filename, $events);
 
 // Send an email to all the email addresses specified above with the JSON file attached
- sendEmail($filename, $emails);
+ sendEmail($filename, $emails. $smtp_hpst, $smtp_user, $smtp_pass);
