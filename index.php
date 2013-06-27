@@ -20,8 +20,8 @@ $keywords = array(
 );
 
 // Include libraries and stuff
-require_once 'lib/swift_required.php';
-require_once 'lib/functions.inc.php';
+require_once "lib/swift_required.php";
+require_once "lib/functions.inc.php";
 
 // Run a loop and generate a string acceptable by EventBrite based on the array of keywords
 foreach ($keywords as $key => $value) {

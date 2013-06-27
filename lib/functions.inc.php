@@ -1,7 +1,7 @@
 <?php
 function sendEmail($filename, $to) {
     // Create the Transport
-    $transport = Swift_SmtpTransport::newInstance('smtp.sendgrid.net', 25)->setUsername('ShaneCurran')->setPassword('tbscsc12ShopShop1');
+    $transport = Swift_SmtpTransport::newInstance("smtp.sendgrid.net", 25)->setUsername("ShaneCurran")->setPassword("tbscsc12ShopShop1");
 
 
     // Create the Mailer using your created Transport
